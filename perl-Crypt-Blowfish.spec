@@ -1,8 +1,23 @@
 %include	/usr/lib/rpm/macros.perl
 %define		pdir	Crypt
 %define		pnam	Blowfish
-Summary:	Crypt::Blowfish perl module
-Summary(pl):	Modu³ perla Crypt::Blowfish
+Summary:	Crypt::Blowfish Perl module
+Summary(cs):	Modul Crypt::Blowfish pro Perl
+Summary(da):	Perlmodul Crypt::Blowfish
+Summary(de):	Crypt::Blowfish Perl Modul
+Summary(es):	Módulo de Perl Crypt::Blowfish
+Summary(fr):	Module Perl Crypt::Blowfish
+Summary(it):	Modulo di Perl Crypt::Blowfish
+Summary(ja):	Crypt::Blowfish Perl ¥â¥¸¥å¡¼¥ë
+Summary(ko):	Crypt::Blowfish ÆÞ ¸ðÁÙ
+Summary(no):	Perlmodul Crypt::Blowfish
+Summary(pl):	Modu³ Perla Crypt::Blowfish
+Summary(pt):	Módulo de Perl Crypt::Blowfish
+Summary(pt_BR):	Módulo Perl Crypt::Blowfish
+Summary(ru):	íÏÄÕÌØ ÄÌÑ Perl Crypt::Blowfish
+Summary(sv):	Crypt::Blowfish Perlmodul
+Summary(uk):	íÏÄÕÌØ ÄÌÑ Perl Crypt::Blowfish
+Summary(zh_CN):	Crypt::Blowfish Perl Ä£¿é
 Name:		perl-Crypt-Blowfish
 Version:	2.09
 Release:	2
