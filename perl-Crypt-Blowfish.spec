@@ -20,7 +20,7 @@ Summary(uk):	Модуль для Perl Crypt::Blowfish
 Summary(zh_CN):	Crypt::Blowfish Perl дё©И
 Name:		perl-Crypt-Blowfish
 Version:	2.09
-Release:	2
+Release:	3
 License:	BSD-like (see COPYRIGHT)
 Group:		Development/Languages/Perl
 Source0:	ftp://ftp.cpan.org/pub/CPAN/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
