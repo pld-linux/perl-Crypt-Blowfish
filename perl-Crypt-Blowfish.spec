@@ -1,8 +1,8 @@
 %include	/usr/lib/rpm/macros.perl
 %define		pdir	Crypt
 %define		pnam	Blowfish
-Summary:	Crypt-Blowfish perl module
-Summary(pl):	Modu³ perla Crypt-Blowfish
+Summary:	Crypt::Blowfish perl module
+Summary(pl):	Modu³ perla Crypt::Blowfish
 Name:		perl-Crypt-Blowfish
 Version:	2.09
 Release:	1
@@ -15,10 +15,10 @@ BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-Crypt-Blowfish perl module.
+Crypt::Blowfish perl module.
 
 %description -l pl
-Modu³ perla Crypt-Blowfish.
+Modu³ perla Crypt::Blowfish.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
