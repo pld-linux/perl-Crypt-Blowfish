@@ -32,8 +32,6 @@ perl Makefile.PL
 rm -rf $RPM_BUILD_ROOT
 
 %{__make} install DESTDIR=$RPM_BUILD_ROOT
-#kdir -p $RPM_BUILD_ROOT/usr/lib/perl5/site_perl/Crypt/
-#p $RPM_BUILD_ROOT/usr/lib/perl5/site_perl/i686-pld-linux/5.6.1/Crypt/Blowfish.pm $RPM_BUILD_ROOT/usr/lib/perl5/site_perl/Crypt/Blowfish.pm
 
 gzip -9nf Changes README
 
