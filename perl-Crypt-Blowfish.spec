@@ -10,7 +10,7 @@ Summary(fr):	Module Perl Crypt::Blowfish
 Summary(it):	Modulo di Perl Crypt::Blowfish
 Summary(ja):	Crypt::Blowfish Perl ¥â¥¸¥å¡¼¥ë
 Summary(ko):	Crypt::Blowfish ÆÞ ¸ðÁÙ
-Summary(no):	Perlmodul Crypt::Blowfish
+Summary(nb):	Perlmodul Crypt::Blowfish
 Summary(pl):	Modu³ Perla Crypt::Blowfish
 Summary(pt):	Módulo de Perl Crypt::Blowfish
 Summary(pt_BR):	Módulo Perl Crypt::Blowfish
