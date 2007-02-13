@@ -6,7 +6,7 @@
 %define		pdir	Crypt
 %define		pnam	Blowfish
 Summary:	Crypt::Blowfish - Perl Blowfish encryption module
-Summary(pl.UTF-8):   Crypt::Blowfish - moduł Perla dla szyfrowania Blowfish
+Summary(pl.UTF-8):	Crypt::Blowfish - moduł Perla dla szyfrowania Blowfish
 Name:		perl-Crypt-Blowfish
 Version:	2.10
 Release:	1
