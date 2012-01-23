@@ -8,12 +8,12 @@
 Summary:	Crypt::Blowfish - Perl Blowfish encryption module
 Summary(pl.UTF-8):	Crypt::Blowfish - moduł Perla dla szyfrowania Blowfish
 Name:		perl-Crypt-Blowfish
-Version:	2.10
-Release:	7
+Version:	2.12
+Release:	1
 License:	BSD-like (see COPYRIGHT)
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	15b53308df3b29a62a9f2f718aace19a
+# Source0-md5:	a0eca17addc8bdaf38c044c365a8800c
 URL:		http://search.cpan.org/dist/Crypt-Blowfish/
 %{?with_tests:BuildRequires:	perl-Crypt-CBC}
 BuildRequires:	perl-devel >= 1:5.8.0
