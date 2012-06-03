@@ -12,10 +12,10 @@ Version:	2.12
 Release:	1
 License:	BSD-like (see COPYRIGHT)
 Group:		Development/Languages/Perl
-Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
+Source0:	http://www.cpan.org/modules/by-module/Crypt/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	a0eca17addc8bdaf38c044c365a8800c
 URL:		http://search.cpan.org/dist/Crypt-Blowfish/
-%{?with_tests:BuildRequires:	perl-Crypt-CBC}
+%{?with_tests:BuildRequires:	perl-Crypt-CBC >= 1.22}
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
@@ -54,6 +54,6 @@ rm -rf $RPM_BUILD_ROOT
 %doc Changes COPYRIGHT README
 %{perl_vendorarch}/Crypt/Blowfish.pm
 %dir %{perl_vendorarch}/auto/Crypt/Blowfish
-%{perl_vendorarch}/auto/Crypt/Blowfish/*.bs
-%attr(755,root,root) %{perl_vendorarch}/auto/Crypt/Blowfish/*.so
-%{_mandir}/man3/*
+%{perl_vendorarch}/auto/Crypt/Blowfish/Blowfish.bs
+%attr(755,root,root) %{perl_vendorarch}/auto/Crypt/Blowfish/Blowfish.so
+%{_mandir}/man3/Crypt::Blowfish.3pm*
