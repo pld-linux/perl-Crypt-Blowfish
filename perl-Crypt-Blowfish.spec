@@ -56,6 +56,5 @@ rm -rf $RPM_BUILD_ROOT
 %doc Changes COPYRIGHT README
 %{perl_vendorarch}/Crypt/Blowfish.pm
 %dir %{perl_vendorarch}/auto/Crypt/Blowfish
-%{perl_vendorarch}/auto/Crypt/Blowfish/Blowfish.bs
 %attr(755,root,root) %{perl_vendorarch}/auto/Crypt/Blowfish/Blowfish.so
 %{_mandir}/man3/Crypt::Blowfish.3pm*
