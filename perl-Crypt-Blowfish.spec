@@ -13,10 +13,11 @@ License:	BSD-like (see COPYRIGHT)
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/Crypt/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	792b43cd4e49d2c2cf4a9f6990ff7d1b
-URL:		http://search.cpan.org/dist/Crypt-Blowfish/
+URL:		https://metacpan.org/dist/Crypt-Blowfish
 %{?with_tests:BuildRequires:	perl-Crypt-CBC >= 1.22}
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
+BuildRequires:	rpmbuild(macros) >= 1.745
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
